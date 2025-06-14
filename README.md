@@ -1,8 +1,16 @@
-cd ПУТЬ_К_ПАПКЕ/vidspace_vercel
-
-git init
-git add .
-git commit -m "Первый коммит VIDSPACE"
-git remote add origin https://github.com/ТВОЙ_ЛОГИН/vidspace.git
-
-git push -u origin master
+VIDSPACE/
+├── public/
+│   ├── zaynex_avatar.glb        # 3D-модель для антициклона (можно заменить)
+│   ├── styles.css               # Основные стили
+│   └── welcome_video.mp4        # Видео приветствие (опционально)
+├── src/
+│   ├── components/
+│   │   ├── SubscriptionPlans.jsx
+│   │   ├── ZaynexAnticyclone.jsx
+│   │   └── ChatInterface.jsx
+│   ├── App.jsx
+│   └── index.jsx
+├── .gitignore
+├── package.json
+├── README.md
+└── vercel.json                  # Конфиг для деплоя
