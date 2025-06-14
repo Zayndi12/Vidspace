@@ -1,16 +1,15 @@
-VIDSPACE/
-├── public/
-│   ├── zaynex_avatar.glb        # 3D-модель для антициклона (можно заменить)
-│   ├── styles.css               # Основные стили
-│   └── welcome_video.mp4        # Видео приветствие (опционально)
-├── src/
-│   ├── components/
-│   │   ├── SubscriptionPlans.jsx
-│   │   ├── ZaynexAnticyclone.jsx
-│   │   └── ChatInterface.jsx
-│   ├── App.jsx
-│   └── index.jsx
-├── .gitignore
-├── package.json
-├── README.md
-└── vercel.json                  # Конфиг для деплоя
+vidspace/
+├─ public/
+│  └─ zaynex.mp4
+├─ src/
+│  ├─ components/
+│  │  ├─ Header.tsx
+│  │  ├─ Hero.tsx
+│  │  ├─ Zaynex.tsx
+│  │  └─ SubscriptionCard.tsx
+│  ├─ App.tsx
+│  ├─ main.tsx
+├─ index.html
+├─ tailwind.config.ts
+├─ package.json
+├─ vercel.json
